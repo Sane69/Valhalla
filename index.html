@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valhalla</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <main class="main">
+        <div class="container">
+            <header class="header" id="header">
+                <div class="header__nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Registration</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Guilds</a></li>
+                        <li><a href="#">Players</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div class="header__btn">
+                    <button class="header__btn--log" type="button">
+                        <img src="images/btn-lock.png" alt="">Login
+                    </button>
+                    <button class="header__btn--sign" type="button">
+                        <img src="images/btn-lock.png" alt="">Sign in
+                    </button>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__mobile">
+                    <div class="header__btn--mob">
+                        <button class="header__btn--log" type="button">
+                            <img src="images/btn-lock.png" alt="">Login
+                        </button>
+                        <button class="header__btn--sign" type="button">
+                            <img src="images/btn-lock.png" alt="">Sign in
+                        </button>
+                    </div>
+                    <div class="header__nav--mob">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Registration</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Guilds</a></li>
+                            <li><a href="#">Players</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <div class="sign">
+                
+            </div>
+
+            <form class="popup">
+                <div class="form__title">
+                    <span>Sign In</span>
+                    <a class="popup__close" href="#"><img src="images/popup-close.png" alt=""></a>
+                </div>
+                <div class="form__connect">
+                    <button class="form__connect--facebook" type="button"><img src="images/popup-facebook-icon.png" alt="">Connect with Facebook</button>
+                    <button class="form__connect--google" type="button"><img src="images/popup-google-icon.png" alt="">Connect with Google</button>
+                </div>
+                <div class="form__main--block">
+                    <div class="form__block">
+                        <p class="form__block--log">Login</p>
+                        <input class="form__block--inputLog" type="text" required placeholder="Templstock">
+                    </div>
+                    <div class="form__block">
+                        <p class="form__block--pass">Password</p>
+                        <input class="form__block--inputPass" type="password" required>
+                    </div>
+                </div>
+                <div class="form__forgot">
+                    <div class="form__forgot--info">
+                        <a class="form__forgot--infoPass" href="#">Forgot Password ?</a>
+                        <a class="form__forgot--infoSign" href="#">Sign Up</a>
+                    </div>
+                    <button class="form__btn" type="submit">Sign In Now</button>
+                </div>
+            </form>
+
+            <div class="main__logo">
+                <a href="/"><img src="images/main-logo.png" alt="Logo"></a>
+            </div>
+            <div class="main__info">
+                <div class="main__info--download">
+                    <img src="images/download-arrow.png" alt="">
+                    <div class="main__info--downloadText">
+                        <h4>Download</h4>
+                        <p>Game client 3.5GB</p>
+                    </div>
+                </div>
+                <div class="main__info--donation">
+                    <img src="images/donation-logo.png" alt="">
+                    <div class="main__info--donationText">
+                        <h4>Donation</h4>
+                        <p>Help in the development of the server</p>
+                    </div>
+                </div>
+                <div class="main__info--OnOffLine">
+                    <div class="main__info--Online">
+                        <img class="main__info--logo" src="images/online-logo.png" alt="">
+                        <div class="main__info--OnlineOther">
+                            <div class="main__info--OnlineName">
+                                <span class="main__info--spanName">Valhalla</span><span class="main__info--spanOnline">Online</span>
+                            </div>
+                            <img src="images/online-line.png" alt="">
+                            <div class="main__info--OnlineServer">
+                                <div>
+                                    <img src="images/online-offline-arrow.png" alt="">
+                                    <span class="main__info--spanServer">Server Discription</span>
+                                </div>
+                                <span class="main__info--spanNum">895</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__info--Offline">
+                        <img class="main__info--logo" src="images/offline-logo.png" alt="">
+                        <div class="main__info--OfflineOther">
+                            <div class="main__info--OfflineName">
+                                <span class="main__info--spanName">Florencia</span><span class="main__info--spanOffline">Offline</span>
+                            </div>
+                            <img src="images/offline-line.png" alt="">
+                            <div class="main__info--OfflineServer">
+                                <div>
+                                    <img src="images/online-offline-arrow.png" alt="">
+                                    <span class="main__info--spanServer">Server Discription</span>
+                                </div>
+                                <span class="main__infoOfflineSpanNum">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="new">
+        <div class="container">
+            <div class="new__info">
+                <div class="new__table">
+                    <ul>
+                        <li><a href="#"><img src="images/new-arrow.png" alt="">News</a></li>
+                        <li><a href="#"><img src="images/new-arrow.png" alt="">Forum</a></li>
+                        <li><a href="#"><img src="images/new-arrow.png" alt="">Events</a></li>
+                        <li><a href="#"><img src="images/new-arrow.png" alt="">Updates</a></li>
+                        <li><a href="#"><img src="images/new-arrow.png" alt="">All</a></li>
+                    </ul>
+                    <div class="new__table--info">
+                        <div class="new__table--item">
+                            <div class="new__table--itemBlock">
+                                <img src="images/new-round.png" alt="">
+                                <span class="new__table--update">Update</span><img src="images/new-update-arrow.png" alt="">
+                                <span class="new__table--name">Mandatory update</span>
+                            </div>
+                            <div class="new__table--itemBlock"><span class="new__table--date">01.08.2020</span></div>
+                        </div>
+                        <div class="new__table--item">
+                            <div class="new__table--itemBlock">
+                                <img src="images/new-round.png" alt="">
+                                <span class="new__table--update">Update</span><img src="images/new-update-arrow.png" alt="">
+                                <span class="new__table--name">Mandatory update</span>
+                            </div>
+                            <div class="new__table--itemBlock"><span class="new__table--date">01.08.2020</span></div>
+                        </div>
+                        <div class="new__table--item">
+                            <div class="new__table--itemBlock">
+                                <img src="images/new-round.png" alt="">
+                                <span class="new__table--update">Update</span><img src="images/new-update-arrow.png" alt="">
+                                <span class="new__table--name">Mandatory update</span>
+                            </div>
+                            <div class="new__table--itemBlock"><span class="new__table--date">01.08.2020</span></div>
+                        </div>
+                        <div class="new__table--item">
+                            <div class="new__table--itemBlock">
+                                <img src="images/new-round.png" alt="">
+                                <span class="new__table--update">Update</span><img src="images/new-update-arrow.png" alt="">
+                                <span class="new__table--name">Mandatory update</span>
+                            </div>
+                            <div class="new__table--itemBlock"><span class="new__table--date">01.08.2020</span></div>
+                        </div>
+                        <div class="new__table--item">
+                            <div class="new__table--itemBlock">
+                                <img src="images/new-round.png" alt="">
+                                <span class="new__table--update">Update</span><img src="images/new-update-arrow.png" alt="">
+                                <span class="new__table--name">Mandatory update</span>
+                            </div>
+                            <div class="new__table--itemBlock"><span class="new__table--date">01.08.2020</span></div>
+                        </div>
+                        <div class="new__table--item">
+                            <div class="new__table--itemBlock">
+                                <img src="images/new-round.png" alt="">
+                                <span class="new__table--update">Update</span><img src="images/new-update-arrow.png" alt="">
+                                <span class="new__table--name">Mandatory update</span>
+                            </div>
+                            <div class="new__table--itemBlock"><span class="new__table--date">01.08.2020</span></div>
+                        </div>
+                        <div class="new__table--item">
+                            <div class="new__table--itemBlock">
+                                <img src="images/new-round.png" alt="">
+                                <span class="new__table--update">Update</span><img src="images/new-update-arrow.png" alt="">
+                                <span class="new__table--name">Mandatory update</span>
+                            </div>
+                            <div class="new__table--itemBlock"><span class="new__table--date">01.08.2020</span></div>
+                        </div>
+                    </div>
+                    <div class="new__table--more">
+                        <a href="#">+ Load more</a>
+                    </div>
+                </div>
+                <div class="new__portfolio">
+                    <div class="new__portfolio--itemThree">
+                        <div class="new__portfolio--item1">
+                            <img src="images/new-update.png" alt="">
+                            <span>New Update</span>
+                        </div>
+                        <div class="new__portfolio--item2">
+                            <img src="images/new-other.png" alt="">
+                            <span>New Crafts And Other</span>
+                        </div>
+                        <div class="new__portfolio--item3">
+                            <img src="images/new-rules.png" alt="">
+                            <span>Server Rules</span>
+                        </div>
+                    </div>
+                    <div class="new__portfolio--itemMain">
+                        <img src="images/new-main.png" alt="">
+                        <div class="new__portfolio--itemText">
+                            <div class="new__portfolio--itemMainName">
+                                <h3>New Update</h3>
+                                <div class="new__portfolio--itemMainNameBottom">
+                                    <p class="new__portfolio--itemMainNameBottomF">Free Download</p>
+                                    <p class="new__portfolio--itemMainNameBottomS">Game client 3.5GB</p>
+                                </div>
+                            </div>
+                            <div class="new__portfolio--itemMainDate">
+                                <p class="new__portfolio--itemMainDateF">New Opportunities</p>
+                                <p class="new__portfolio--itemMainDateS">AT 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top">
+        <div class="container">
+            <div class="top__info">
+                <div class="top__players">
+                    <div class="top__players--title">
+                        <p>Top Players</p>
+                    </div>
+                    <div class="top__players--list">
+                        <div class="top__players--listBlock">
+                            <span class="top__players--listBlockMrR">#</span><span>NAME</span>
+                        </div>
+                        <div class="top__players--listBlock">
+                            <span class="top__players--listBlockMrR">LvL</span>
+                            <div class="top__players--listBlockMrT">
+                                <span>Res</span>
+                                <span class="top__players--listBlockSpan">Gr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>2.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>3.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>3.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>3.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>3.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>3.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>3.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--item">
+                        <div class="top__players--itemBlock">
+                            <span>3.</span><img src="images/top-usa.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                                <span class="top__players--itemBlockSpan">13</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--btn">
+                        <button type="button">All players</button>
+                    </div>
+                </div>
+
+                <div class="top__playersGulds">
+                    <div class="top__players--title">
+                        <p>Top Gulds</p>
+                    </div>
+                    <div class="top__players--listGuild">
+                        <div class="top__players--listBlock">
+                            <span class="top__players--listBlockMrR">#</span><span>NAME</span>
+                        </div>
+                        <div class="top__players--listBlockUpper">
+                            <span>Score</span>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>2.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--itemPad">
+                        <div class="top__players--itemBlock">
+                            <span>1.</span><img src="images/top-gulds.png" alt=""><span>Mikky_tp</span>
+                        </div>
+                        <div class="top__players--itemBlock top__players--itemBlockArial">
+                            <span class="top__players--listBlockMrR">1990</span>
+                            <div class="top__players--itemBlockMrT">
+                                <span>150</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top__players--btn">
+                        <button type="button">All Guild</button>
+                    </div>
+                </div>
+
+                <div class="top__playersDisc">
+                    <div class="top__players--title">
+                        <p>Discussions</p>
+                    </div>
+                    <div class="top__disc--container">
+                        <div class="top__disc">
+                            <div class="top__disc--logo">
+                                <img src="images/top-disc-logo.png" alt="">
+                            </div>
+                            <div class="top__disc--text">
+                                <p class="top__disc--textTitle">Welcome to our new site. There...</p>
+                                <div class="top__disc--textBy">
+                                    <p><span class="top__disc--textByBy">By</span>Daniel_91</p>
+                                    <span class="top__disc--textByDate">01.08.2020</span>
+                                </div>
+                            </div>
+                            <div class="top__disc--num">
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <div class="top__disc">
+                            <div class="top__disc--logo">
+                                <img src="images/top-disc-logo.png" alt="">
+                            </div>
+                            <div class="top__disc--text">
+                                <p class="top__disc--textTitle">Welcome to our new site. There...</p>
+                                <div class="top__disc--textBy">
+                                    <p><span class="top__disc--textByBy">By</span>Daniel_91</p>
+                                    <span class="top__disc--textByDate">01.08.2020</span>
+                                </div>
+                            </div>
+                            <div class="top__disc--num">
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <div class="top__disc">
+                            <div class="top__disc--logo">
+                                <img src="images/top-disc-logo.png" alt="">
+                            </div>
+                            <div class="top__disc--text">
+                                <p class="top__disc--textTitle">Welcome to our new site. There...</p>
+                                <div class="top__disc--textBy">
+                                    <p><span class="top__disc--textByBy">By</span>Daniel_91</p>
+                                    <span class="top__disc--textByDate">01.08.2020</span>
+                                </div>
+                            </div>
+                            <div class="top__disc--num">
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <div class="top__disc">
+                            <div class="top__disc--logo">
+                                <img src="images/top-disc-logo.png" alt="">
+                            </div>
+                            <div class="top__disc--text">
+                                <p class="top__disc--textTitle">Welcome to our new site. There...</p>
+                                <div class="top__disc--textBy">
+                                    <p><span class="top__disc--textByBy">By</span>Daniel_91</p>
+                                    <span class="top__disc--textByDate">01.08.2020</span>
+                                </div>
+                            </div>
+                            <div class="top__disc--num">
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <div class="top__disc">
+                            <div class="top__disc--logo">
+                                <img src="images/top-disc-logo.png" alt="">
+                            </div>
+                            <div class="top__disc--text">
+                                <p class="top__disc--textTitle">Welcome to our new site. There...</p>
+                                <div class="top__disc--textBy">
+                                    <p><span class="top__disc--textByBy">By</span>Daniel_91</p>
+                                    <span class="top__disc--textByDate">01.08.2020</span>
+                                </div>
+                            </div>
+                            <div class="top__disc--num">
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <div class="top__disc">
+                            <div class="top__disc--logo">
+                                <img src="images/top-disc-logo.png" alt="">
+                            </div>
+                            <div class="top__disc--text">
+                                <p class="top__disc--textTitle">Welcome to our new site. There...</p>
+                                <div class="top__disc--textBy">
+                                    <p><span class="top__disc--textByBy">By</span>Daniel_91</p>
+                                    <span class="top__disc--textByDate">01.08.2020</span>
+                                </div>
+                            </div>
+                            <div class="top__disc--num">
+                                <span>2</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="top__players--btn">
+                        <button type="button">Forum</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="media__container">
+            <div class="media">
+                <div class="media__name">
+                    <p>Media</p>
+                    <button type="button">All Medias</button>
+                </div>
+                <div class="media__slider">
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                    <div class="media__slider--item">
+                        <img src="images/slider-item.png" alt="">         
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info">
+                <div class="footer__info--site">
+                    <span>© 2020</span><a class="footer__info--siteLink" href="#">Valhalla.com</a>
+                    <p>THis is a test server for Mu Online only. All rights reserved</p>
+                    <a class="footer__info--siteTerms" href="#">Terms of use</a>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav--main">
+                        <h4 class="footer__nav--mainTitle">Main</h4>
+                        <div class="footer__nav--mainLink footer__nav--mainLinkAfter">
+                            <a href="#"><img src="images/new-arrow.png" alt="">Download</a>
+                            <a href="#"><img src="images/new-arrow.png" alt="">News</a>
+                            <a href="#"><img src="images/new-arrow.png" alt="">About server</a>
+                        </div>
+                    </div>
+                    <div class="footer__nav--community">
+                        <h4 class="footer__nav--mainTitle">Community</h4>
+                        <div class="footer__nav--mainLink footer__nav--mainLinkAfter">
+                            <a href="#"><img src="images/new-arrow.png" alt="">Registration</a>
+                            <a href="#"><img src="images/new-arrow.png" alt="">Forum</a>
+                            <a href="#"><img src="images/new-arrow.png" alt="">Facebook.com</a>
+                        </div>
+                    </div>
+                    <div class="footer__nav--support">
+                        <h4 class="footer__nav--mainTitle">Support</h4>
+                        <div class="footer__nav--mainLink">
+                            <a href="#"><img src="images/new-arrow.png" alt="">Online support</a>
+                            <a href="#"><img src="images/new-arrow.png" alt="">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__digital">
+                    <div class="footer__digital--logo">
+                        <img src="images/footer-name.png" alt="">
+                    </div>
+                    <div class="footer__digital--text">
+                        <p>Design and stylized decor site from <a href="#">DigitalNox</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__social">
+                    <span>Follow us:</span>
+                    <img src="images/footer-twitter.png" alt="">
+                    <img src="images/footer-facebook.png" alt="">
+                    <img src="images/footer-icon.png" alt="">
+                </div>
+                <div class="footer__toTop">
+                    <a class="scroll__link" href="#header"><img src="images/footer-toTop.png" alt="">Go to top</a>
+                </div>
+                <div class="footer__vote">
+                    <span>Vote for us:</span>
+                    <img src="images/footer-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
